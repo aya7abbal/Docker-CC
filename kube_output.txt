@@ -1,4 +1,4 @@
 NAME                                      READY   STATUS             RESTARTS      AGE
-assignment3-deployment-6fd9548c77-8k8vh   0/1     CrashLoopBackOff   3 (26s ago)   69s
-assignment3-deployment-6fd9548c77-8tbxh   0/1     CrashLoopBackOff   3 (25s ago)   68s
-assignment3-job-gkphb                     0/1     Completed          0             2m
+assignment3-deployment-6fd9548c77-h96rn   0/1     CrashLoopBackOff   2 (14s ago)   31s
+assignment3-deployment-6fd9548c77-mv82q   0/1     Completed          2 (26s ago)   29s
+assignment3-job-gkphb                     0/1     Completed          0             4m49s
