@@ -1,0 +1,11 @@
+# Use the Alpine version of Python to reduce size
+FROM python:3.9-alpine
+
+# Set the working directory inside the container
+WORKDIR /home/data
+
+# Copy all files from the local project directory to the container
+COPY . /home/data
+
+# Run your Python script
+CMD ["python", "script.py"]

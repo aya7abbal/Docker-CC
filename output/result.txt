@@ -1,0 +1,6 @@
+Word count IF.txt: 287
+Word count ARUTW.txt: 223
+Grand total of words: 510
+Top 3 words in IF.txt: [('you', 14), ('If', 13), ('can', 12)]
+Top 3 words in AlwaysRememberUsThisWay.txt: [('I', 15), ('the', 12), ('not', 9)]
+IP address: 172.17.0.2

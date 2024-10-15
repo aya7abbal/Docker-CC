@@ -1,0 +1,11 @@
+# Use a lightweight Python base image
+FROM python:3.9-slim
+
+# Set the working directory inside the container
+WORKDIR /home/data
+
+# Copy everything from the local directory into the container
+COPY . /home/data
+
+# Run your Python script
+CMD ["python", "script.py"]
