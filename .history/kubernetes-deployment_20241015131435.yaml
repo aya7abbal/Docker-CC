@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: assignment3-job
+spec:
+  template:
+    metadata:
+      labels:
+        app: assignment3
+    spec:
+      containers:
+      - name: assignment3-container
+        image: aya7abbal/assignment3_image:latest
+        ports:
+        - containerPort: 80
+      restartPolicy: Never

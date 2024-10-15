@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: assignment3-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: assignment3
+  template:
+    metadata:
+      labels:
+        app: assignment3
+    spec:
+      containers:
+      - name: assignment3-container
+        image: aya7abbal/assignment3_image:latest
+        ports:
+        - containerPort: 80
